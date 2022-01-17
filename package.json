@@ -7,8 +7,9 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "deploy": "npm run cdk deploy -- --hotswap",
+    "bootstrap": "npm run cdk bootstrap -- --qualifier=aspects"
   },
   "devDependencies": {
     "@types/jest": "^26.0.10",

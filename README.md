@@ -1,14 +1,10 @@
-# Welcome to your CDK TypeScript project!
+# Compliance with AWS CDK Aspects
 
-This is a blank project for TypeScript development with CDK.
+An example of how one might use aspects to enforce compliance.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+**WIP**
 
-## Useful commands
+## Deployment
 
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
+1. `npm run bootstrap`
+2. `npm run deploy`
